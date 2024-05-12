@@ -583,7 +583,7 @@ pressed = tft.getTouch(&t_x, &t_y);
   if (prevthing) {
      pressed = false;
   }
-#endif //esp32
+#endif //Spamfix
 }
 }
 

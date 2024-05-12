@@ -3,6 +3,11 @@ Some extra KEY definitions the original USB Keyboard library does not have
 to make it compatible with FreeTouchDeck. Only included when #define USEUSBHID 
 is defined.
 */
+
+
+#ifndef KEYDEFINES_H
+#define KEYDEFINES_H
+
 const uint8_t KEY_PRTSC = 0xCE;
 
 const uint8_t KEY_NUM_0 = 0xEA;
@@ -21,3 +26,5 @@ const uint8_t KEY_NUM_MINUS = 0xDE;
 const uint8_t KEY_NUM_PLUS = 0xDF;
 const uint8_t KEY_NUM_ENTER = 0xE0;
 const uint8_t KEY_NUM_PERIOD = 0xEB;
+
+#endif

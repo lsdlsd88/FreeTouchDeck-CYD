@@ -13,6 +13,8 @@
 * @note Case 11 is used for special functions, none bleKeyboard related.
 */
 
+#include "Keydefines.h"
+
 void bleKeyboardAction(int action, int value, char *symbol)
 {
 
